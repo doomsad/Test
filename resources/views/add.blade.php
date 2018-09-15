@@ -48,9 +48,7 @@ center;font-family: cursive;"></div>
 				success:function()
 				{
 					// var row = $('#st_table');
-					// var i = $('#st_table tr').size() + 1;
 					// row.append('<tr><td>1</td><td>Anas Darabee</td><td>Enginner</td></tr>');   
-					// i++;
 					$('#name').fadeIn();
 					$('#name').text('Successfully added new row').fadeOut(4000);
 				}
